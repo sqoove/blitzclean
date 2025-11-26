@@ -60,7 +60,7 @@ from urllib.request import Request
 from urllib.request import urlopen
 
 # Define 'VERSION'
-VERSION = "v4.9.8"
+VERSION = "v4.9.9"
 
 # Define 'APPNAME'
 APPNAME = "BlitzClean"
@@ -86,6 +86,7 @@ USERPATH = [
     ".cache/inkscape",
     ".cache/JetBrains",
     ".cache/JNA",
+    ".cache/kdenlive",
     ".cache/keepassxc",
     ".cache/mesa_shader_cache",
     ".cache/Microsoft",
