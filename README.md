@@ -63,7 +63,7 @@ sudo dpkg -i blitzclean_4.9.8_all.deb
 * **Run**: perform cleanup
 * **Stop**: cancel safely
 
-The table streams files as they’re discovered; the **Freed Space** counter updates live.
+The table streams files as they're discovered; the **Freed Space** counter updates live.
 
 * * *
 
@@ -124,7 +124,7 @@ python main.py
 Cannot find reference 'connect' in 'pyqtSignal | function'
 ```
 
-**Fix (stub tweak):** Edit `QtCore.pyi` in your environment’s `site-packages/PyQt6` and add `connect`/`emit` to `pyqtSignal`:
+**Fix (stub tweak):** Edit `QtCore.pyi` in your environment's `site-packages/PyQt6` and add `connect`/`emit` to `pyqtSignal`:
 
 ```python
 # Support for new-style signals and slots.
@@ -156,7 +156,7 @@ Unexpected type(s):(Literal[StandardButton.Cancel])
 Possible type(s):(Literal[StandardButton.Ok])(Literal[StandardButton.Ok])
 ```
 
-**Cause:** Some PyQt6 stubs model `setStandardButtons` as a single `StandardButton`, but at runtime it’s a flag enum, so `Ok | Cancel` gets flagged.
+**Cause:** Some PyQt6 stubs model `setStandardButtons` as a single `StandardButton`, but at runtime it's a flag enum, so `Ok | Cancel` gets flagged.
 
 ```python
 from typing import cast
