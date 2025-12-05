@@ -60,7 +60,7 @@ from urllib.request import Request
 from urllib.request import urlopen
 
 # Define 'VERSION'
-VERSION = "v4.9.9"
+VERSION = "v5.0.0"
 
 # Define 'APPNAME'
 APPNAME = "BlitzClean"
@@ -110,8 +110,7 @@ USERPATH = [
     ".config/Code/Cache",
     ".config/Code/CachedData",
     ".config/Code/logs",
-    ".config/discord/Cache",
-    ".config/discord/Code Cache",
+    ".config/discord",
     ".config/JetBrains",
     ".config/mediasane",
     ".config/rclone",

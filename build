@@ -14,7 +14,7 @@ appname="BlitzClean"
 debname="blitzclean"
 
 # Define 'debvers'
-debvers="4.9.9"
+debvers="5.0.0"
 
 # Define 'debarch'
 debarch="all"
